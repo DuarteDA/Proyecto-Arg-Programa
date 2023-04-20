@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;1,700&family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+}
+body{
+    background-color: #fbf6f0;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #f5ebdc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 5px 0%;
+}
+
+.header .logo img{
+    height: 80px;
+    width: auto;
+}
+
+.header .logo{
+    cursor: pointer;
+    width: auto;
+    height: 80px;
+}
+
+.header .links-nav li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.header .links-nav a{
+    text-decoration: none;
+    color: #502314;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.header .links-nav a:hover{
+    color: #852100;
+    transform: scale(3.1);
+    background-color: #00000011;
+    padding: 0px 5px;
+    border-radius: 20px;
+}
+.carousel-inner{
+text-align: center;
+background-color: #fbf6f0;
+margin: 1px 0 0 0;
+}
+
+span{
+    background-color: black;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+#combos{
+    display: flex;
+    position:relative;
+    justify-content: center;
+    background-color: #f5ebdc;
+    padding: 50px;
+    margin: 1px;
+}
+
+#card{
+    text-align: center;
+    background-color: #f5ebdc;
+}
+.card-title{
+    font-size: 18px;
+}
+
+#item1{
+    margin: 0;
+    background-color: #f5ebdc;
+    border-radius: 40px;
+    padding: 5px;
+    border:none;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+#item1 a{
+    text-decoration: none;
+    color: #502314;
+}
+
+h3{
+    text-align: center;
+}
+
+#item1:hover{
+    background-color: #f7d5a2;
+    font-weight: bold;
+    transform: scale(1.1);
+}
+
+
+/* footer */
+#pregunta{
+    font-family:sans-serif;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+.pie-pagina{
+    width: 100%;
+    background-color: #fbf6f0;
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img{
+    width: 220px;
+
+}
+
+.pie-pagina .grupo-1 .box h2{
+    color: black;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p{
+    color: rgba(0, 0, 0, 0.838);
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: black;
+    margin-right:10px;
+    border-radius: 40px;
+    background-color: #fdebd4;
+    text-align: center;
+    transform: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: #502314;
+}
+
+.pie-pagina .grupo-2{
+    background-color: #f5ebdc;
+    padding: 15px 10px;
+    text-align: center;
+    color: black;
+}
+
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+
+.sobre-nosotros{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+}
+
+/* Reclamo  */
+
+.form-control{
+    margin-left: 15vh;
+    justify-content: center;
+    width: 40vh;
+}
+
+.fa-download{
+    margin: 5vh;
+    margin-top: 3vh;
+    color: #502314;
+    position: absolute;
+}
+
+#download-icon:hover{
+    transform: scale(1.1);
+}
+
+/* mensajes*/
+#mensaje {
+    display: none;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+#rechazo{
+    display: none;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
