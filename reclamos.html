@@ -41,20 +41,29 @@
             </nav>
     </header>
 
-    <section id="reclamos" style="justify-content: center;display: flex; padding: 20vh; text-align: center;">
-        <div class="col-6" class="input-group flex-nowrap">
-            <input id="nombre" required style="background-color: #f5ebdc; color: #502314; font-weight: bold" type="text" class="form-control" placeholder="Nombre y Apellido" aria-label="Username" aria-describedby="addon-wrapping">
-            <br>
-            <input id="email" required style="background-color: #f5ebdc; color: #502314; font-weight: bold" type="email" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="addon-wrapping">
-            <br>
-            <textarea id="reclamo" style="background-color: #f5ebdc;color: #502314;font-weight: bold;" cols="40" rows="10" placeholder="Describa su reclamo..."></textarea>
-            <button id="item1" style=" margin-left: 10px; background-color: #502314;" type="button" class="btn btn-primary btn-lg" onclick="enviarReclamo()">Enviar Reclamo</button>
-            <i style="cursor: pointer;" id="download-icon" class="fa-solid fa-download fa-2xl"></i>
-            
+    <section id="reclamos" style="padding: 20px; text-align: center;">
+        <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+            <form>
+                <div class="form-group">
+                <input id="nombre" required style=" margin-bottom: 10px; margin-top: 20vh; background-color: #f5ebdc; color: #502314; font-weight: bold" type="text" class="form-control" placeholder="Nombre y Apellido" aria-label="Username" aria-describedby="addon-wrapping">
+                </div>
+                <div class="form-group">
+                <input id="email" required style="margin-bottom: 10px;background-color: #f5ebdc; color: #502314; font-weight: bold" type="email" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="addon-wrapping">
+                </div>
+                <div class="form-group">
+                <textarea id="reclamo" style="margin-bottom: 10px;background-color: #f5ebdc; color: #502314; font-weight: bold;" class="form-control" rows="5" placeholder="Describa su reclamo..."></textarea>
+                </div>
+                <div class="form-group">
+                <button id="item1" style="background-color: #502314;margin-right:0vh;" type="button" class="btn btn-primary btn-block" onclick="enviarReclamo()">Enviar Reclamo</button>
+                <i style="margin-top:-5vh ; position: relative; cursor: pointer;" id="download-icon" class="fa-solid fa-download fa-2x"></i>
+                </div>
+            </form>
+            </div>
         </div>
-
+        </div>
     </section>
-
 
 <footer class="pie-pagina" style="background-color: #f5ebdc;">
     <div class="grupo-1">
